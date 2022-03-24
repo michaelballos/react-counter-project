@@ -1,14 +1,26 @@
 
-body {
+body, html {
   overflow: hidden;
+  background: no-repeat center center fixed;
+ 
 }
 
-#bg {
-  position: absolute;
-  position: center;
-  max-width: 100%;
-
-}
+  #bg {
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    #bg {
+      left: 50%;
+      margin-left: -512px;
+    }
+  }
 
 .App {
   position: absolute;
