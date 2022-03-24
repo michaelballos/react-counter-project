@@ -1,38 +1,80 @@
+
+body {
+  overflow: hidden;
+}
+
+#bg {
+  position: absolute;
+  position: center;
+  max-width: 100%;
+
+}
+
 .App {
+  position: absolute;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  margin-top: 0;
+  padding-top: 0;
+  min-width : 100%;
+  min-height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: flex-start;
+}
+
+
+#pageTitle {
+  font-size: 80px;
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 0;
+  padding-top: 2rem;
+  text-shadow:
+      0 0 7px rgba(255, 255, 255, 0.4),
+      0 0 10px rgba(255, 255, 255, 0.803),
+      0 0 21px rgba(255, 255, 255, 0.816),
+      0 0 42px #0fa,
+      0 0 151px #0fa;
+}
+
+
+
+
+#counterInterface {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  padding-top: 14rem;
+  justify-self: center;
+
+}
+
+#interfaceTitle {
+  font-size: 1.4rem;   
+  margin: 0;
+}
+
+#cunt {
+  padding-top: 1.5rem;
+  margin: 0;
+  font-size: 3rem;
+  text-shadow: rgb(18, 232, 160);
+}
+
+button {
+  width: 5rem;
+  height: 30px;
+  font-size: 1.2rem;
   color: white;
+  background-color: transparent;
+  font-family: 'Orbitron', sans-serif;
+  font-family: 'Teko', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+#buttons {
+display: flex;
+justify-content: center;
+gap: 25px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
