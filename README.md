@@ -1,4 +1,4 @@
-#README
+# README
 
 This is a react redo of a button counter I did in vanilla javascript.
 
