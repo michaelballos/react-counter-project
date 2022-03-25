@@ -1,3 +1,7 @@
+#README
+
+This is a react redo of a button counter I did in vanilla javascript.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
